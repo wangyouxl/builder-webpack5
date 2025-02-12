@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "nyc mocha",
-    "eslint": "eslint ./lib --fix"
+    "eslint": "eslint ./lib --fix",
+    "commitmsg": "validate-commit-msg",
+    "changlog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [],
   "author": "网友小凌",

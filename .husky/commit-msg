@@ -1,3 +1,6 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+# 验证提交信息
 npx validate-commit-msg
+
+# 生成 CHANGELOG.md 文件
+npx conventional-changelog -p angular -i CHANGELOG.md -s -r 0
