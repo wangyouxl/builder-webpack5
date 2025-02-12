@@ -9,13 +9,13 @@ describe("webpack.base.js test case", () => {
     //it 表示一个测试用例
     assert.equal(
       baseConfig.entry.search.indexOf(
-        "bulider-webpack/test/smoke/emplate/src/search/index.js"
+        "bulider-webpack5/test/smoke/emplate/src/search/index.js"
       ) > -1,
       true
     );
     assert.equal(
       baseConfig.entry.app.indexOf(
-        "bulider-webpack/test/smoke/emplate/src/app/index.js"
+        "bulider-webpack5/test/smoke/emplate/src/app/index.js"
       ) > -1,
       true
     );
