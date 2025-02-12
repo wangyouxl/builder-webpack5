@@ -11,13 +11,13 @@ describe("webpack.base.js test case", () => {
     //it 表示一个测试用例
     assert.equal(
       baseConfig.entry.search.indexOf(
-        "builder-webpack5/test/smoke/emplate/src/search/index.js"
+        "builder-webpack5/test/smoke/template/src/search/index.js"
       ) > -1,
       true
     );
     assert.equal(
       baseConfig.entry.app.indexOf(
-        "builder-webpack5/test/smoke/emplate/src/app/index.js"
+        "builder-webpack5/test/smoke/template/src/app/index.js"
       ) > -1,
       true
     );
