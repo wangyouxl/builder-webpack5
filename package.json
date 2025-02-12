@@ -1,7 +1,7 @@
 {
-  "name": "bulider-webpack5",
+  "name": "builder-webpack5-swift",
   "version": "1.0.0",
-  "description": "bulider-webpack5",
+  "description": "builder-webpack5",
   "main": "index.js",
   "directories": {
     "lib": "lib"
