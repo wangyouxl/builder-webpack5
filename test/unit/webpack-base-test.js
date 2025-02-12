@@ -8,12 +8,16 @@ describe("webpack.base.js test case", () => {
   it("entry", () => {
     //it 表示一个测试用例
     assert.equal(
-      baseConfig.entry.search,
-      "C:\\Users\\Administrator\\Desktop\\webpack学习\\my-project\\bulider-webpack\\test\\smoke\\template\\src\\search\\index.js"
+      baseConfig.entry.search.indexOf(
+        "bulider-webpack/test/smoke/emplate/src/search/index.js"
+      ) > -1,
+      true
     );
     assert.equal(
-      baseConfig.entry.app,
-      "C:\\Users\\Administrator\\Desktop\\webpack学习\\my-project\\bulider-webpack\\test\\smoke\\template\\src\\app\\index.js"
+      baseConfig.entry.app.indexOf(
+        "bulider-webpack/test/smoke/emplate/src/app/index.js"
+      ) > -1,
+      true
     );
   });
 });
