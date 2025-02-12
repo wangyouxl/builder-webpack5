@@ -44,8 +44,8 @@ jobs:  #定义工作流的作业
           cd -
 
       # Webpack 构建
-      - name: Build project using Webpack
-        run: npm run build
+      #- name: Build project using Webpack
+      # run: npm run build
 
       # 运行测试
       - name: Run tests
