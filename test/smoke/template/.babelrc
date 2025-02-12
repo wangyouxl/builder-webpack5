@@ -1,0 +1,20 @@
+// babel-loader 的入口文件
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false
+            }
+        ], // 解析es6语法和特性的
+        [
+            "@babel/preset-react", //解析react的语法
+            {
+                "modules": false
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import"
+    ]
+}

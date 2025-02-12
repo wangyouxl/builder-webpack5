@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_project=self.webpackChunkmy_project||[]).push([[223],{732:(c,e,s)=>{function n(){return"common module"}s.d(e,{s:()=>n})},892:(c,e,s)=>{s.d(e,{F:()=>n});const n=()=>"this is func b"}}]);

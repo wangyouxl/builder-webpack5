@@ -1,0 +1,120 @@
+{
+  "pageInfo": {
+    "totalNum": 908,
+    "totalPage": 91,
+    "currentPage": 1,
+    "is_paginated": true,
+    "objList": [
+      {
+        "id": 9568,
+        "name": "Other_MiniBoard",
+        "type": 29,
+        "explain": "1.24.224.0062",
+        "createBy": "G000688",
+        "createTime": "2025-01-22 20:23:13",
+        "remark": "都灵bmc板",
+        "eValue": "1.24.224.0062",
+        "slotList": []
+      },
+      {
+        "id": 9567,
+        "name": "CPU",
+        "type": 7,
+        "explain": "GENUINE INTEL(R) XEON(R)",
+        "createBy": "G000302",
+        "createTime": "2025-01-18 16:59:27",
+        "remark": "虚拟物料CPU-李家林",
+        "eValue": "8.02.001.1123",
+        "slotList": []
+      },
+      {
+        "id": 9566,
+        "name": "CPU",
+        "type": 7,
+        "explain": "AMD EPYC 7742 64-Core Processor",
+        "createBy": "G000688",
+        "createTime": "2025-01-16 14:15:28",
+        "remark": "英博数科客供",
+        "eValue": "3.90.992.0042",
+        "slotList": []
+      },
+      {
+        "id": 9565,
+        "name": "NIC",
+        "type": 20,
+        "explain": "3.90.991.0033",
+        "createBy": "G000688",
+        "createTime": "2025-01-16 14:02:14",
+        "remark": "mellanox 25G网卡(英博数科客供）",
+        "eValue": "3.90.991.0033",
+        "slotList": []
+      },
+      {
+        "id": 9564,
+        "name": "DISK",
+        "type": 11,
+        "explain": "3.90.994.0090",
+        "createBy": "G000688",
+        "createTime": "2025-01-15 16:01:16",
+        "remark": "噢易云特供1.6TNVme",
+        "eValue": "3.90.994.0090",
+        "slotList": []
+      },
+      {
+        "id": 9563,
+        "name": "DISK",
+        "type": 11,
+        "explain": "X4",
+        "createBy": "G000688",
+        "createTime": "2025-01-15 15:21:57",
+        "remark": "噢易特供1.6TB u.2固态",
+        "eValue": "3.90.994.00901",
+        "slotList": []
+      },
+      {
+        "id": 9562,
+        "name": "DISK",
+        "type": 11,
+        "explain": "8TB",
+        "createBy": "G000688",
+        "createTime": "2025-01-15 15:19:50",
+        "remark": "希捷8TBSATA",
+        "eValue": "3.03.242.0011",
+        "slotList": []
+      },
+      {
+        "id": 9561,
+        "name": "GPU",
+        "type": 21,
+        "explain": "NVIDIA 4090D",
+        "createBy": "G000688",
+        "createTime": "2025-01-13 22:50:13",
+        "remark": "4090D",
+        "eValue": "3.90.996.0051",
+        "slotList": []
+      },
+      {
+        "id": 9560,
+        "name": "CPU",
+        "type": 7,
+        "explain": "9.00.000.0000",
+        "createBy": "G000731",
+        "createTime": "2025-01-10 14:41:32",
+        "remark": "Intel Q4G9（虚拟物料-验证用-叶聪）",
+        "eValue": "9.00.000.0000",
+        "slotList": []
+      },
+      {
+        "id": 9559,
+        "name": "MEM",
+        "type": 8,
+        "explain": "3.03.261.0217",
+        "createBy": "G000731",
+        "createTime": "2025-01-08 10:23:45",
+        "remark": "三星64GB DDR5内存 RDIMM ECC 6400MHz 全高",
+        "eValue": "3.03.261.0217",
+        "slotList": []
+      }
+    ]
+  }
+}

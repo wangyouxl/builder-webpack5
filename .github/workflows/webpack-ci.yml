@@ -1,0 +1,52 @@
+name: Webpack CI #工作流名称
+
+on:   #触发工作流的事件
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:  #定义工作流的作业
+  build:
+    runs-on: ubuntu-latest #运行的环境
+
+    steps:
+      # 检出代码
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # 缓存 node_modules
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }} # 缓存的唯一标识符
+          restore-keys: |
+            ${{ runner.os }}-node-  
+
+      # 设置 Node.js 环境
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+
+      # 安装项目依赖
+      - name: Install dependencies
+        run: npm install
+      
+      # 安装 test/template 目录下的依赖
+      - name: Install template dependencies
+        run: |
+          cd test/template 
+          npm install
+          cd -
+
+      # Webpack 构建
+      - name: Build project using Webpack
+        run: npm run build
+
+      # 运行测试
+      - name: Run tests
+        run: npm test
