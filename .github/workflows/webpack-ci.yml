@@ -39,7 +39,7 @@ jobs:  #定义工作流的作业
       # 安装 test/template 目录下的依赖
       - name: Install template dependencies
         run: |
-          cd test/template 
+          cd builder-webpack5/test/template
           npm install
           cd -
 
